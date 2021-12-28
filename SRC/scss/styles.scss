@@ -1,12 +1,12 @@
 // Small screen sizes
 @media only screen and (min-device-width: 320px) {
-    @import 'small.scss';
+    @use 'small.scss';
 }
 
 @media only screen and (min-device-width: 768px) {
-    @import 'medium.scss';
+    @use 'medium.scss';
 }
 
 @media only screen and (min-device-width: 1224px) {
-    @import 'large.scss';
+    @use 'large.scss';
 }
