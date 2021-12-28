@@ -1,0 +1,14 @@
+{
+  "name": "jiffylines.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass --watch src/scss/styles.scss:dist/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.1"
+  }
+}
