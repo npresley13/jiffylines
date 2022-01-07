@@ -1,0 +1,21 @@
+:root {
+    --clr-light: #fdffc4;
+    --clr-dark: #00332a;
+    --clr-primary: #dbffa2;
+    --clr-seconday: #c3fcf2;
+    --clr-accent: #ff7750;
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-primary: #202302;
+        --clr-seconday: #00100d;
+        --clr-accent: #ff7750;
+
+        --foreground: var(--clr-light);
+        --background: var(--clr-dark);
+    }
+}
